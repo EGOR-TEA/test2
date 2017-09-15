@@ -16,6 +16,7 @@ end;
 var s:string;
 begin
   s:='simple string' +#13;
+  writeLn('string without line feed: ',Chomp(s));
   writeLn('',Chomp(s));
   readln
 end.
